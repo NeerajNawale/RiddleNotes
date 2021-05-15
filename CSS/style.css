@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&family=Mitr:wght@300&family=Open+Sans&family=Open+Sans+Condensed:ital,wght@1,300&family=Poiret+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    height: 52px;
+    color: white;
+    background-color: rgb(32, 31, 31);
+    top: 0;
+    position: sticky;
+}
+#left_nav{
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+}
+#right_nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 73%;
+}
+
+#head{
+    width: 200px;
+}
+a{
+    margin: 0 23px;
+    padding: 0 12px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+#searchTxt{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    border-radius: 9px;
+    padding: 3px 10px;
+    font-size: 18px;
+    margin: 0 9px;
+}
+
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 4px 12px;
+    cursor: pointer;
+   
+    background: none;
+    color: #6fe26f;
+    border: 1px solid;
+}
+.btn:hover{
+    background-color: #6fe26f;
+    color: black;
+}
+#bug{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+textarea{
+    font-family: 'Poiret One', cursive;
+    padding: 7px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 70%;
+}
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 3px 3px;
+}
+
+/* Container  */
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+    padding: 13px 13px;
+}
+#wel{
+    margin: 7px 0px;
+    padding: 2px 0px;
+}
+p{
+    font-size: 18px;
+    margin: 8px 0;
+}
+.note{
+    margin: 7px 0;
+    color: white;
+    background-color: rgb(16, 165, 224);
+}
+.note:hover{
+    background-color: rgb(123, 205, 238);
+}
+
+#content{
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    flex-direction: column;
+}
+.finalOne{
+    display: flex;
+    padding: 13px 0px;
+    flex-wrap: wrap;
+}
+.AllCards{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 5px 5px;
+    padding: 5px 6px;
+}
+.N{
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+}

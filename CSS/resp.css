@@ -1,0 +1,48 @@
+@media only screen and (max-width: 768px){
+    #bug{
+        display: block;
+    }
+    .navbar{
+        height: 200px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+        padding: 18px 0;
+    }
+    .h_nav{
+        height: 20px;
+    }
+    .v_opa{
+        opacity: 0;
+    }
+    #bug{
+        display: block;
+    }
+    #left_nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: 7px 0;
+    }
+    #right_nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #searchTxt{
+        margin: 10px 0;
+    }
+    .text{
+        padding: 13px 0;
+    }
+    #head{
+        width: auto;
+    }
+    .finalOne{
+        flex-direction: row;
+    }
+    .AllCards{
+        width: 100%;
+    }
+}

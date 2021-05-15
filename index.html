@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiddleNotes</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/resp.css">
+</head>
+
+<body>
+    <nav class="navbar h_nav">
+        <div id="left_nav" class="v_opa">
+            <h2 id="head">Riddle Notes</h2>
+            <a href="#">Home</a>
+        </div>
+        <div id="right_nav" class="v_opa">
+            <input type="text" name="search" id="searchTxt" placeholder="Type Something">
+            <button class="btn" id="moveIt">Search</button>
+        </div>
+        <div id="bug">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <hr>
+        <h2 id="wel">Welcome! Make your own Notes</h2>
+        <hr>
+        <div>
+            <p class="N bold">Add a Note</p>
+            <form>
+                <textarea name="" id="addTxt" cols="75" rows="7" placeholder="Add a Text"></textarea>
+            </form>
+            <button class="btn note" id="addBtn">Add Note</button>
+        </div>
+        <hr>
+    </div>
+    <section id="content">
+        <h2>Your Notes</h2>
+        <div class="finalOne" id="addThis">
+        </div>
+    </section>
+</body>
+<script src="JS/app.js"></script>
+</html>
